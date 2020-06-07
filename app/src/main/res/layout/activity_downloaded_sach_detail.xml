@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_centerHorizontal="true"
+tools:context=".DownloadedSachDetail">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="#0C0C0C"
+        android:id="@+id/frameLayoutBookDetai">
+        <ImageView
+            android:id="@+id/imageDetailBookBlur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/black_heart"></ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imageDetailBook"
+                android:layout_width="260dp"
+                android:layout_height="300dp"
+                android:src="@drawable/man_elf"
+                android:layout_gravity="center_horizontal"></ImageView>
+
+            <TextView
+                android:id="@+id/tenSachDetailBook"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Teen sachs owr day"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/tacGiaDetailBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="italic|bold"
+                android:text="teen tac gia owr day"></TextView>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@+id/introDetailBook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="intro owr ddaya"></TextView>
+            </ScrollView>
+        </LinearLayout>
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/chapter"
+        android:textColor="#F6F4FA"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#131313"></TextView>
+    <ListView
+        android:id="@+id/listViewChapter"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textAlignment="center"
+        android:minHeight="100dp"
+        android:textColor="#F6F4FA"
+        ></ListView>
+</LinearLayout>
+</ScrollView>

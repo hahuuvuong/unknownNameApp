@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Đọc sách</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_history">Lịch sử </string>
+    <string name="title_settings">Cài đặt</string>
+    <string name="title_favorite">Yêu thích </string>
+    <string name="title_download">Lưu trữ </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Quẹt sang trái để đăng ký</string>
+    <string name="login">Đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="e_mail">Tên đăng nhập</string>
+    <string name="tag">Cùng nhau tạo ra những câu chuyện</string>
+    <string name="swipe_right_for_login">Quẹt sang phải để đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="re_type_password">Nhập lại mật khẩu</string>
+    <string name="your_name">Họ và tên</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="chapter">Chương</string>
+    <string name="old_password">Nhập mật khẩu cũ</string>
+    <string name="type_new_password">Nhập mật khẩu mới</string>
+    <string name="re_type_new_password">Nhập lại mật khẩu mới</string>
+    <string name="hotest_book">Truyện nhiều người đọc</string>
+    <string name="random_book">Truyện ngẫu nhiên</string>
+    <string name="category_book">Theo thể loại</string>
+    <string name="not_found">Không tìm thấy truyện!</string>
+    <string name="hello">Xin chào </string>
+    <string name="delete_history">Xóa lịch sử</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="change_language">Thay đổi ngôn ngữ</string>
+    <string name="change_font">Thay đổi font</string>
+    <string name="notification">Thông báo</string>
+    <string name="lets_reading">Đọc sách thôi nàoo !</string>
+    <string name="old_password_needed">Bạn phải mật khẩu cũ!</string>
+    <string name="new_password_needed">Bạn phải nhập mật khẩu mới!</string>
+    <string name="password_needed">Bạn phải nhập lại mật khẩu!</string>
+    <string name="password_conflict">Mật khẩu nhập lại không khớp!</string>
+    <string name="old_password_conflict">Mật khẩu cũ không trùng khớp!</string>
+    <string name="change_password_success">Đổi mật khẩu thành công</string>
+
+    <string name="username_needed">Bạn phải nhập tên đăng nhập!</string>
+    <string name="passwordneed">Bạn phải nhập mật khẩu!</string>
+    <string name="login_error">Mật khẩu hoặc tên đăng nhập không đúng!</string>
+    <string name="login_success">Đăng nhập thành công!</string>
+    <string name="signin_success">Đăng ký thành công!</string>
+
+    <string name="exist_username">Username đã tồn tại, vui lòng chọn tên khác!</string>
+    <string name="nickname_need">Bạn phải họ và tên!</string>
+    <string name="delete_history_comfirm">"Bạn có chắc muốn xóa lịch sử đọc ?"</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="choose_language">Chọn ngôn ngữ...</string>
+    <string name="choose_fontSize">Thay đổi font size</string>
+    <string name="small">Nhỏ</string>
+    <string name="medium">Trung bình</string>
+    <string name="large">Lớn</string>
+    <string name="adventure">Kiếm Hiệp - Tiên Hiệp</string>
+    <string name="romance">Truyện Ngắn - Ngôn Tình</string>
+    <string name="detective">Trinh thám</string>
+    <string name="school">Truyên Teen - Tuổi Học Trò</string>
+    <string name="horror">Truyện Ma - Kinh dị</string>
+    <string name="fairytale">Cổ Tích - Thần Thoại</string>
+    <string name="learning_english">Học ngoại ngữ</string>
+
+    <string name="loading">Đang tải dữ liệu</string>
+    <string name="waiting">Vui lòng chờ...</string>
+</resources>
